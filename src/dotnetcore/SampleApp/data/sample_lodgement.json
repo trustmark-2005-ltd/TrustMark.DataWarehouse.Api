@@ -1,0 +1,98 @@
+{
+    "version": "2019-08-01",
+    "type": "PAS2020",
+    "complete": false,
+    "pas2035Roles": {
+        "advisorTMLN": "",
+        "assessorTML": "",
+        "designerEmail": "",
+        "installerTMLN": "",
+        "evaluatorTMLN": ""
+    },
+    "address": {
+        "name": "",
+        "number": "15",
+        "flatNameNumber": "",
+        "address1": "",
+        "address2": "",
+        "address3": "",
+        "city": "",
+        "county": "",
+        "postcode": "",
+        "country": "",
+        "uprn": ""
+    },
+    "tenure": {
+        "premisesTenure": "",
+        "residentName": "",
+        "residentContactNumber": "",
+        "residentAlternativeContactNumber": "",
+        "ownerName": "",
+        "ownerContactNumber": "",
+        "ownerAlternativeContactNumber": "",
+        "ownerEmail": ""
+    },
+    "propertyInformation": {
+        "propertyType": "",
+        "propertyDetachment": "",
+        "propertyBedrooms": "",
+        "propertyTypeName": "",
+        "propertyAge": "",
+        "propertyConstruction": "",
+        "uniquePropertyReferenceNumber": ""
+    },
+    "documents": [
+        {
+            "uploadToken": "e131dee09c5045eb8cab93fd26ce55d0tbab029a0a02a4ed4821bc53582833594",
+            "documentType": "General"
+        }
+    ],
+    "measures": [
+        {
+            "general": {
+                "installedDate": "2019-09-01",
+                "workTypeId": "1",
+                "workType": "",
+                "measureCategory": "",
+                "measureType": "",
+                "pasAnnex": "",
+                "standard": "",
+                "handoverDate": "",
+                "installerReferenceNumber": "",
+                "supplierReferenceNumber": "",
+                "subInstallerName": "",
+                "subInstallerTrustMarkLicenceNumber": "",
+                "installerPasCertificateNumber": "",
+                "annualCostSaving": 0,
+                "workInvoiceTotal": 0,
+                "preEPC": "",
+                "postEPC": ""
+            },
+            "guarantee": {
+                "guaranteeSelect": "",
+                "fileUpload": "",
+                "guaranteeIssuedBy": "",
+                "guaranteePolicyReference": "",
+                "guaranteeStartDate": "",
+                "guaranteeCoverDuration": 0
+            },
+            "additional": {
+                "has100PercentMeasureInstalled": "",
+                "operativeName": "",
+                "operativeCertificationReference": ""
+            },
+            "product": {
+                "productManufacturer": "",
+                "productModel": "",
+                "productVersion": "",
+                "productSerialNumber": "",
+                "productWarrantyDuration": "",
+                "productWarrantyUpload": ""
+            },
+            "obligation": {
+                "overallObligationPeriod": "",
+                "ecoSupplierReference": "",
+            }
+        }
+    ]
+}
