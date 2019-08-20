@@ -4,7 +4,7 @@ The TrustMark .NET library provides integration access to the TrustMark DataWare
 
 ## Prerequisites
 
-You must have a TrustMark account and API key in order to run this project - if you need to obtain an API key please visit https://data-hub.org.uk/register.
+You must have a TrustMark account and API key in order to run this project - if you need to obtain an API key please email data@trustmark.org.uk.
 
 ## Postman
 
