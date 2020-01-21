@@ -46,7 +46,17 @@ You can attach up to 6 measures per lodgement in the Measures section of the lod
 
 You must first complete the UploadFile call to receive an UploadToken, you can then attach each document to the lodgement using the Documents section of the lodgement.
 
-You can attach up to 50 documents to a lodgement.
+You can attach up to 50 documents to a lodgement. 
+
+The file size is limited to 5MB, and to pdf, word, excel and common image formats. If you have any specific requirements, please get in touch to discuss.
+
+Note that TrustMark does not require all files that are needed as part of the supplier notification to Ofgem.
+
+For PAS 2030:2017 we require the Declaration of Conformity and would like the guarantee.
+
+For PAS 2035 there are additional documents that the Retrofit Coordinator must provide.
+https://www.trustmark.org.uk/docs/default-source/pas-2035/pas-2035---trustmark-overview.pdf
+
 
 ### Status
 
@@ -254,3 +264,8 @@ Returns a list of Work Types that are valid for the Measure.General.WorkType fie
 If you are supplying a value for Measure.General.WorkTypeId you do not need to supply this value.
 
 https://api.sandbox.data-hub.org.uk/lodgement/taxonomies/worktypes
+
+## Third Party Lodgement
+
+If you are a software company and wish to lodge on behalf of your users you do not need their API keys. You need the correct 'third party' permission applied to your account and you will then be able to lodge on behalf of the business by providing their TrustMark Licence Number (tmln). 
+
