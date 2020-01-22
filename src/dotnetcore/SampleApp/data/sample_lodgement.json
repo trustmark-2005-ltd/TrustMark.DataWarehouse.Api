@@ -1,72 +1,59 @@
 {
     "version": "2019-08-01",
-    "type": "PAS2020",
-    "complete": false,
-    "pas2035Roles": {
-        "advisorTMLN": "",
-        "assessorTML": "",
-        "designerEmail": "",
-        "installerTMLN": "",
-        "evaluatorTMLN": ""
-    },
+    "type": "PAS2030",
+    "complete": true,
+    "tmln": "1624715",
     "address": {
         "name": "",
-        "number": "15",
+        "number": "5",
         "flatNameNumber": "",
-        "address1": "",
+        "address1": "Bexton Road",
         "address2": "",
         "address3": "",
-        "city": "",
-        "county": "",
-        "postcode": "",
-        "country": "",
+        "city": "Knutsford",
+        "county": "Cheshire East",
+        "postcode": "WA16 0EA",
+        "country": "England",
         "uprn": ""
     },
     "tenure": {
-        "premisesTenure": "",
-        "residentName": "",
-        "residentContactNumber": "",
+        "premisesTenure": "Private Rental Sector",
+        "residentName": "Helen Redgrave",
+        "residentContactNumber": "07322855123",
         "residentAlternativeContactNumber": "",
-        "ownerName": "",
-        "ownerContactNumber": "",
+        "ownerName": "Bob Smith",
+        "ownerContactNumber": "07852349604",
         "ownerAlternativeContactNumber": "",
-        "ownerEmail": ""
+        "ownerEmail": "obooth@preppygreen.com"
     },
     "propertyInformation": {
-        "propertyType": "",
-        "propertyDetachment": "",
-        "propertyBedrooms": "",
+        "propertyType": "House",
+        "propertyDetachment": "Detached",
+        "propertyBedrooms": "3",
         "propertyTypeName": "",
-        "propertyAge": "",
-        "propertyConstruction": "",
+        "propertyAge": "C",
+        "propertyConstruction": "Conventional, not high-rise, not protected",
         "uniquePropertyReferenceNumber": ""
     },
     "documents": [
         {
             "uploadToken": "e131dee09c5045eb8cab93fd26ce55d0tbab029a0a02a4ed4821bc53582833594",
-            "documentType": "General"
+            "documentType": "Claim of compliance PAS2030",
+            "filename": "test.pdf"
         }
     ],
     "measures": [
         {
             "general": {
-                "installedDate": "2019-09-01",
-                "workTypeId": "1",
-                "workType": "",
-                "measureCategory": "",
-                "measureType": "",
-                "pasAnnex": "",
-                "standard": "",
-                "handoverDate": "",
-                "installerReferenceNumber": "",
+                "installedDate": "2019-11-18",
+                "workTypeId": "DW-161",
+                "certificateFreeTextDetails": "This will appear on your certificate",
+                "handoverDate": "2019-11-19",
+                "installerReferenceNumber": "TM009M008",
                 "supplierReferenceNumber": "",
                 "subInstallerName": "",
                 "subInstallerTrustMarkLicenceNumber": "",
-                "installerPasCertificateNumber": "",
-                "annualCostSaving": 0,
-                "workInvoiceTotal": 0,
-                "preEPC": "",
-                "postEPC": ""
+                "installerPasCertificateNumber": ""
             },
             "guarantee": {
                 "guaranteeSelect": "",
@@ -77,7 +64,7 @@
                 "guaranteeCoverDuration": 0
             },
             "additional": {
-                "has100PercentMeasureInstalled": "",
+                "has100PercentMeasureInstalled": "Yes",
                 "operativeName": "",
                 "operativeCertificationReference": ""
             },
@@ -90,9 +77,13 @@
                 "productWarrantyUpload": ""
             },
             "obligation": {
-                "overallObligationPeriod": "",
-                "ecoSupplierReference": "",
+                "overallObligationPeriod": "w",
+                "ecoSupplierReference": ""
             }
         }
-    ]
+    ],
+    "annualCostSaving": 0,
+    "workInvoiceTotal": 0,
+    "preEPC": "C",
+    "postEPC": "B"
 }

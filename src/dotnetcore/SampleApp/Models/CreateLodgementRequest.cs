@@ -12,11 +12,14 @@ namespace SampleApp.Models
         [JsonProperty("type")]
         public string Type { get; set; }
 
+        [JsonProperty("tmln")]
+        public string TMLN { get; set; }
+
         [JsonProperty("complete")]
         public bool Complete { get; set; }
 
         [JsonProperty("pas2035Roles")]
-        public Pas2035Roles Pas2035Roles { get; set; }
+        public List<Pas2035Role> Pas2035Roles { get; set; }
 
         [JsonProperty("address")]
         public Address Address { get; set; }
@@ -46,22 +49,19 @@ namespace SampleApp.Models
         public string PostEPC { get; set; }
     }
 
-    public class Pas2035Roles
+    public class Pas2035Role
     {
-        [JsonProperty("advisorTMLN")]
-        public string AdvisorTMLN { get; set; }
+        [JsonProperty("tmln")]
+        public string TMLN { get; set; }
 
-        [JsonProperty("assessorTMLN")]
-        public string AssessorTMLN { get; set; }
+        [JsonProperty("role")]
+        public string Role { get; set; }
 
-        [JsonProperty("designerEmail")]
-        public string DesignerEmail { get; set; }
+        [JsonProperty("workCode")]
+        public string WorkCode { get; set; }
 
-        [JsonProperty("installerTMLN")]
-        public string InstallerTMLN { get; set; }
-
-        [JsonProperty("evaluatorTMLN")]
-        public string EvaluatorTMLN { get; set; }
+        [JsonProperty("rcRole")]
+        public bool RCRole { get; set; }
     }
 
     public class Address
@@ -164,6 +164,9 @@ namespace SampleApp.Models
 
         [JsonProperty("pas2035RoleTMLN")]
         public string RoleTMLN { get; set; }
+
+        [JsonProperty("filename")]
+        public string Filename { get; set; }
     }
 
     public class Measure
