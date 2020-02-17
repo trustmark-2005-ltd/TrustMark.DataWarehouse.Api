@@ -1,0 +1,41 @@
+{
+    "lodgementId": "ca8e200e-f048-42f8-9cc3-6f29cc43f96e",
+    "measure": {
+        "general": {
+            "installedDate": "2019-11-18",
+            "workTypeId": "DW-161",
+            "certificateFreeTextDetails": "This will appear on your certificate",
+            "handoverDate": "2019-11-19",
+            "installerReferenceNumber": "TM009M008",
+            "supplierReferenceNumber": "",
+            "subInstallerName": "",
+            "subInstallerTrustMarkLicenceNumber": "",
+            "installerPasCertificateNumber": ""
+        },
+        "guarantee": {
+            "guaranteeSelect": "",
+            "fileUpload": "",
+            "guaranteeIssuedBy": "",
+            "guaranteePolicyReference": "",
+            "guaranteeStartDate": "",
+            "guaranteeCoverDuration": 0
+        },
+        "additional": {
+            "has100PercentMeasureInstalled": "Yes",
+            "operativeName": "",
+            "operativeCertificationReference": ""
+        },
+        "product": {
+            "productManufacturer": "",
+            "productModel": "",
+            "productVersion": "",
+            "productSerialNumber": "",
+            "productWarrantyDuration": "",
+            "productWarrantyUpload": ""
+        },
+        "obligation": {
+            "overallObligationPeriod": "w",
+            "ecoSupplierReference": ""
+        }
+    }
+}

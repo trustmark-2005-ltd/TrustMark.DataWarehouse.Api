@@ -28,6 +28,12 @@
     <None Update="data\SampleUploadDocument.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="data\sample_add_measure.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="data\sample_attach_response.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="data\sample_lodgement.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

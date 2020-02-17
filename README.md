@@ -46,7 +46,7 @@ You can attach up to 6 measures per lodgement in the Measures section of the lod
 
 You must first complete the UploadFile call to receive an UploadToken, you can then attach each document to the lodgement using the Documents section of the lodgement.
 
-You can attach up to 50 documents to a lodgement. 
+You can attach up to 50 documents to a lodgement.
 
 The file size is limited to 5MB, and to pdf, word, excel and common image formats. If you have any specific requirements, please get in touch to discuss.
 
@@ -155,6 +155,38 @@ Example success response
 
 ```
 
+### PUT /members/lodgement/addmeasure
+
+Adds a new measure to an open lodgement.
+
+You will also need to supply an tm-api-key Header value.
+
+https://api.sandbox.data-hub.org.uk/lodgement/members/lodgement/addmeasure
+
+```
+{
+  "Status": "Created",
+  "Message": null,
+  "MeasureId": "9009eb99-59b2-49a6-9f32-2ec5cf5ca9f0",
+  "Measure": {
+    "general": {
+      "installedDate": "2019-11-18T00:00:00",
+      "workTypeId": "DW-161",
+      "workType": null,
+      "measureCategory": null,
+      "measureType": null,
+      "pasAnnex": null,
+      "standard": null,
+      "handoverDate": "2019-11-19T00:00:00",
+      "installerReferenceNumber": "TM009M008",
+      "supplierReferenceNumber": "",
+      "subInstallerName": "",
+      "subInstallerTrustMarkLicenceNumber": "",
+      "installerPasCertificateNumber": ""
+    ...
+}
+```
+
 ### PUT /members/lodgement/complete
 
 Completes a Lodgement is the status allows returns a Status and Receipt.
@@ -170,6 +202,21 @@ Attach a response to a Lodgement if the status allows returns a Status and Recei
 You will also need to supply an tm-api-key Header value.
 
 https://api.sandbox.data-hub.org.uk/lodgement/members/lodgement/attachresponse
+
+TrustMark attach PAS 2035 response:
+```
+{
+  "Status": "Created",
+  "Message": null,
+  "LodgementDocument": {
+    "Id": "cbfa91cf-fbf1-445a-b4cc-d2bab424bdd1",
+    "LodgementId": "b888a55a-80d5-4dc8-9b61-14478c4bdebb",
+    "DocumentType": "Document",
+    "Role": "Advisor",
+    "RoleTMLN": "1454432"
+  }
+}
+```
 
 ### DELETE /members/lodgement
 
@@ -267,5 +314,5 @@ https://api.sandbox.data-hub.org.uk/lodgement/taxonomies/worktypes
 
 ## Third Party Lodgement
 
-If you are a software company and wish to lodge on behalf of your users you do not need their API keys. You need the correct 'third party' permission applied to your account and you will then be able to lodge on behalf of the business by providing their TrustMark Licence Number (tmln). 
+If you are a software company and wish to lodge on behalf of your users you do not need their API keys. You need the correct 'third party' permission applied to your account and you will then be able to lodge on behalf of the business by providing their TrustMark Licence Number (tmln).
 

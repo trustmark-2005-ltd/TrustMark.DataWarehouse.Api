@@ -25,5 +25,19 @@ namespace SampleApp
             };
             return await Task.FromResult(result);
         }
+
+        public static async Task<AttachResponseRequest> GetAttachResponseRequest()
+        {
+            var path = System.IO.Path.Combine(Environment.CurrentDirectory, "data", "sample_attach_response.json");
+            var inputJson = await System.IO.File.ReadAllTextAsync(path);
+            return JsonConvert.DeserializeObject<AttachResponseRequest>(inputJson);
+        }
+
+        public static async Task<AddMeasureRequest> GetAddMeasureRequest()
+        {
+            var path = System.IO.Path.Combine(Environment.CurrentDirectory, "data", "sample_add_measure.json");
+            var inputJson = await System.IO.File.ReadAllTextAsync(path);
+            return JsonConvert.DeserializeObject<AddMeasureRequest>(inputJson);
+        }
     }
 }
