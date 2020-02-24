@@ -2,6 +2,8 @@
 
 The TrustMark .NET library provides integration access to the TrustMark DataWarehouse API.
 
+The Lodgement Data Dictionary provides further guindance on data requirements: https://www.trustmark.org.uk/ourservices/data-warehouse/data-dictionary
+
 ## Prerequisites
 
 You must have a TrustMark account and API key in order to run this project - if you need to obtain an API key please email data@trustmark.org.uk.
