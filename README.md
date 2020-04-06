@@ -167,25 +167,34 @@ https://api.sandbox.data-hub.org.uk/lodgement/members/lodgement/addmeasure
 
 ```
 {
-  "Status": "Created",
-  "Message": null,
-  "MeasureId": "9009eb99-59b2-49a6-9f32-2ec5cf5ca9f0",
-  "Measure": {
-    "general": {
-      "installedDate": "2019-11-18T00:00:00",
-      "workTypeId": "DW-161",
-      "workType": null,
-      "measureCategory": null,
-      "measureType": null,
-      "pasAnnex": null,
-      "standard": null,
-      "handoverDate": "2019-11-19T00:00:00",
-      "installerReferenceNumber": "TM009M008",
-      "supplierReferenceNumber": "",
-      "subInstallerName": "",
-      "subInstallerTrustMarkLicenceNumber": "",
-      "installerPasCertificateNumber": ""
-    ...
+    "status": "Created",
+    "measureId": "941948e3-7117-44ab-a64f-d6d1b485e0cd",
+    "umr": "13nYp75xZa0",
+    "measure": {
+        "general": {
+            "installedDate": "2020-03-18T00:00:00",
+            "workTypeId": "DW-102",
+            "handoverDate": "2020-04-01T00:00:00",
+            "installerReferenceNumber": "TM009M008",
+            "supplierReferenceNumber": "",
+            "subInstallerName": "",
+            "subInstallerTrustMarkLicenceNumber": "",
+            "installerPasCertificateNumber": "",
+            "certificateFreeTextDetails": "This will appear on your certificate"
+        },
+        "guarantee": {
+            ...
+        },
+        "additional": {
+            ...
+        },
+        "product": {
+            ...
+        },
+        "obligation": {
+            ...
+        }
+    }
 }
 ```
 
@@ -196,6 +205,66 @@ Completes a Lodgement is the status allows returns a Status and Receipt.
 You will also need to supply an tm-api-key Header value.
 
 https://api.sandbox.data-hub.org.uk/lodgement/members/lodgement/complete
+
+```
+{
+    "status": "Complete",
+    "receipt": {
+        "lodgementId": "a14c66c9-0856-4fec-9bb4-64867d051c92",
+        "status": "Complete",
+        "creditStatus": "OK",
+        "isPaid": true,
+        "certificateNumber": "5210",
+        "licenceNumber": "1624715",
+        "measures": [
+            {
+                "measureCategory": "Other Insulation",
+                "measureType": "Park home insulation - roof",
+                "pasStandard": "PAS 2030:2019",
+                "umr": "a1BK81oL4a4",
+                "installerReferenceNumber": "TM009M008"
+            }
+        ],
+        "documents": [
+            {
+                "type": "Intended outcomes",
+                "id": "3973c522-9b48-418f-b5b7-bf890b6ad025"
+            },
+            {
+                "type": "Retrofit design",
+                "id": "43eb3065-2e77-492c-9022-c54eb5751b02"
+            },
+            {
+                "type": "Assessment report",
+                "id": "541a9f0c-b8f1-418d-a768-b70c51dd74ee"
+            },
+            {
+                "type": "Handover documents for client",
+                "id": "706dd4c5-940c-4165-8210-60780f120ae3"
+            },
+            {
+                "type": "Claim of compliance PAS2030",
+                "id": "a6dadc68-ead1-4fb2-a475-e13883f4c1a9"
+            },
+            {
+                "type": "Claim of compliance PAS2035",
+                "id": "d9ebb771-fd05-4862-a00e-c9c4959f01bd"
+            },
+            {
+                "type": "Insurance guarantee",
+                "id": "e1bb8e62-cf96-479a-8cd5-f263cecb83ac"
+            }
+        ],
+        "cost": 9.6,
+        "tmln": "1624715",
+        "trustmarkBusinessId": "39d6924e-e6f0-4a8b-96f8-591a9dff3204",
+        "lodgedByTrustmarkBusinessId": "39d6924e-e6f0-4a8b-96f8-591a9dff3204",
+        "isThirdParty": false,
+        "thirdPartyName": null
+    },
+    "message": null
+}
+```
 
 ### PUT /members/lodgement/attachresponse
 
