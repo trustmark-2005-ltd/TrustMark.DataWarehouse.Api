@@ -6,7 +6,14 @@ The Lodgement Data Dictionary provides further guindance on data requirements: h
 
 ## Prerequisites
 
-You must have a TrustMark account and API key in order to run this project - if you need to obtain an API key please email data@trustmark.org.uk.
+You must have a TrustMark account and API key in order to run this project - if you need to obtain an API key please email data@trustmark.org.uk and we will arrange a discussion to understand your needs and plan next steps.
+
+TrustMark will provide access to a ‘Sandbox’ environment for development and integration testing. Before API keys for the live environment can be provided you must successfully complete lodgements into the Sandbox environment that represent your use cases.
+
+Once TrustMark has validated the test lodgements a Data Sharing Agreement will be issued and must be signed before the keys are issued.
+
+Several organisations have successfully integrated with the Data Warehouse utilising the sample code and postman examples that have been available since 20 August 2019. This has permitted sufficient time to adopt the API. From 22 June 2020 free technical support for integration will only be available to parties that have engaged and either signed a Data Sharing Agreement or have API keys for the Sandbox environment.
+
 
 ## Postman
 
