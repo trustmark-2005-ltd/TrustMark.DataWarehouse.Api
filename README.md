@@ -1,5 +1,7 @@
 # TrustMark.DataWarehouse.Api
 
+**This API currently supports lodgement for work delivered through ECO. GHGVS is not supported.** 
+
 The TrustMark .NET library provides integration access to the TrustMark DataWarehouse API.
 
 The Lodgement Data Dictionary provides further guindance on data requirements: https://www.trustmark.org.uk/ourservices/data-warehouse/data-dictionary
