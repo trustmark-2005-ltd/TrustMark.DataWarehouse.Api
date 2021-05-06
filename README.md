@@ -1,6 +1,6 @@
 # TrustMark.DataWarehouse.Api
 
-**This API currently supports lodgement for work delivered through ECO. GHGVS is not supported.** 
+**This API currently supports lodgement for work delivered through ECO only. Othere initiatives such as GHGVS, LADS, WHD are not supported.** 
 
 The TrustMark .NET library provides integration access to the TrustMark DataWarehouse API.
 
