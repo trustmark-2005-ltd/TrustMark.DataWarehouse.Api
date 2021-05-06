@@ -277,7 +277,7 @@ https://api.sandbox.data-hub.org.uk/lodgement/members/lodgement/complete
 
 ### PUT /members/lodgement/attachresponse
 
-This will be used where a retrofit participant has been invited to contribute to the PAS2035 lodgement lodgement and you are uploading on behalf of that participant. If you are lodging on behalf of a Retrofit Coordinator who is collating and uploading the documents themself, use POST /members/uploadfile
+This will be used where a retrofit participant has been invited to contribute to the PAS2035 lodgement and you are uploading on behalf of that participant. If you are lodging on behalf of a Retrofit Coordinator who is collating and uploading the documents themself, use POST /members/uploadfile
 
 Attach a response to a Lodgement if the status allows returns a Status and Receipt.
 
