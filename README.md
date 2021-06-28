@@ -398,3 +398,13 @@ https://api.sandbox.data-hub.org.uk/lodgement/taxonomies/worktypes
 
 If you are a software company and wish to lodge on behalf of your users you do not need their API keys. You need the correct 'third party' permission applied to your account and you will then be able to lodge on behalf of the business by providing their TrustMark Licence Number (tmln).
 
+To lodge ECO PAS2035 work overseen by a Retrofit Coordinator the “tmln” value must be that of the Retrofit Coordinator who has granted consent for 3rd party lodgement. 
+Populate the ”pas2035Roles” and “pas2035RiskRating” and for each measure provide the tmln of the installer in the “subInstallerTrustMarkLicenceNumber”.
+
+There are examples in the Postman script. Core principles, the lodgement will be made by the Retrofit Coordinator using their tmln. The measure will contain the tmln of the installer in the sub Installer field.
+
+Note that some Retrofit Scheme Providers have determined that their registered Retrofit Coordinators should lodge through their platform – this can be identified by looking up the Retrofit coordinator on www.trustmark.org.uk and checking if their trade is listed as ‘Retrofit Coordinator PAS2035’.
+ 
+ 
+
+
