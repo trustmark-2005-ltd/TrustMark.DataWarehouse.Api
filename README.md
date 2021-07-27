@@ -59,7 +59,7 @@ You must first complete the UploadFile call to receive an UploadToken, you can t
 
 You can attach up to 50 documents to a lodgement.
 
-The file size is limited to 5MB, and to pdf, word, excel and common image formats. If you have any specific requirements, please get in touch to discuss. If you require large file uploads use the `/uploadlargefile` endpoint to generate an upload url and PUT your file there.
+The file size is limited to 5MB, and to pdf, word, excel and common image formats. If you have any specific requirements, please get in touch to discuss. If you require large file uploads use the `/uploadlargefile` endpoint to generate an upload url and PUT your file there [code examples](https://docs.aws.amazon.com/AmazonS3/latest/userguide/PresignedUrlUploadObject.html)
 
 Note that TrustMark does not require all files that are needed as part of the supplier notification to Ofgem.
 
