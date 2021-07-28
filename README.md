@@ -19,7 +19,7 @@ Several organisations have successfully integrated with the Data Warehouse utili
 
 ## Postman
 
-If you are uncertain about an integration or just want to test the API endpoints - there is a Postman link available https://www.getpostman.com/collections/64b2a1e75e1fcd7b65a3. Just update the script with your API key in the Headers.
+If you are uncertain about an integration or just want to test the API endpoints - there is a Postman link available https://www.getpostman.com/collections/64b2a1e75e1fcd7b65a3. Just update the variables in the API Collection with your own `trustmarkid` and `tmapikey` values which you can get from the API section under My Account on your Lodgement Portal login.
 
 ## Key Concepts
 
@@ -339,6 +339,14 @@ https://api.sandbox.data-hub.org.uk/lodgement/taxonomies/epcratings
 Returns a list of Guarantee Types that are valid for the Measure.Guarantee.GuaranteeSelect field.
 
 https://api.sandbox.data-hub.org.uk/lodgement/taxonomies/guaranteetypes
+
+### GET /taxonomies/innovationmeasures
+
+Returns a list of Innovation Measures and Products that are valid to describe a measure's product detail.
+
+If you are supplying a value for Measure.Product.IsInnovationMeasure you will find the expected values here.
+
+https://api.sandbox.data-hub.org.uk/lodgement/taxonomies/innovationmeasures
 
 ### GET /taxonomies/measuretypes
 
