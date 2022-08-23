@@ -413,6 +413,61 @@ There are examples in the Postman script. Core principles, the lodgement will be
 
 Note that some Retrofit Scheme Providers have determined that their registered Retrofit Coordinators should lodge through their platform – this can be identified by looking up the Retrofit coordinator on www.trustmark.org.uk and checking if their trade is listed as ‘Retrofit Coordinator PAS2035’.
  
+## Membercheck API
  
+This service provides the ability for an authorised party to validate that a TrustMark Registered Business is currently registered and for what trades.
+
+### POST /membercheck
+```
+{
+  "tmln": 1624311
+}
+```
+
+Example successful resopnse details business and trades registered for.
+```
+{
+    "success": true,
+    "trustMarkLicence": 1624311,
+    "organisationRegisteredName": "TrustMark TM_005 Limited (Not For Public Use)",
+    "branchName": "TrustMark TM_005 Limited (Not For Public Use)",
+    "address1": "TrustMark (2005) Limited",
+    "address2": "Basing View",
+    "town": "Basingstoke",
+    "postCode": "RG21 4EB",
+    "trades": [
+        {
+            "description": "Heating Engineers",
+            "registered": [
+                {
+                    "registeredFrom": "2019-01-01T00:00:00",
+                    "registeredTo": "2022-08-24T00:00:00+00:00"
+                }
+            ],
+            "trustMarkTradeCode": 29
+        },
+        {
+            "description": "External Wall Insulation [B4 - 2017]",
+            "registered": [
+                {
+                    "registeredFrom": "2019-01-01T00:00:00",
+                    "registeredTo": "2022-08-24T00:00:00+00:00"
+                }
+            ],
+            "trustMarkTradeCode": 82
+        }
+    ],
+    "checkDate": null,
+    "checkTradesForDate": []
+}
+```
+
+Example response where business cannot be found or is not currently TrustMark registered.
+```
+{
+    "success": false
+}
+```
+
 
 
