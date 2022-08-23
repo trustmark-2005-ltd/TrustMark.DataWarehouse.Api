@@ -424,7 +424,7 @@ This service provides the ability for an authorised party to validate that a Tru
 }
 ```
 
-Example successful resopnse details business and trades registered for.
+Example successful response details business and trades they are registered for.
 ```
 {
     "success": true,
