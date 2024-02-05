@@ -1,6 +1,7 @@
 # TrustMark.DataWarehouse.Api
 
-**The Legacy Data Warehouse was retired on 31 Jan 2024 and this API is no longer supported.** 
+>[!NOTE]
+>The Legacy Data Warehouse was retired on 31 Jan 2024 and this API is no longer supported.
 
 **This API currently supports lodgement for work delivered through ECO only. Other initiatives such as GHGVS, LADS, WHD are not supported.** 
 
